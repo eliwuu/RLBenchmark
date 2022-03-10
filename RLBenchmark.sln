@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLBenchmark.Api", "RLBenchmark.Api\RLBenchmark.Api.csproj", "{625AF0B1-F0E0-47B7-8D72-6D9A88903672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLBenchmark.Api", "RLBenchmark.Api\RLBenchmark.Api.csproj", "{625AF0B1-F0E0-47B7-8D72-6D9A88903672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLBenchmark.Models", "RLBenchmark.Models\RLBenchmark.Models.csproj", "{22F03B93-2F2F-4ED1-B700-E6636AFBCACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLBenchmark.Models", "RLBenchmark.Models\RLBenchmark.Models.csproj", "{22F03B93-2F2F-4ED1-B700-E6636AFBCACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLBenchmark.Manager", "RLBenchmarks.Manager\RLBenchmark.Manager.csproj", "{423E3889-043E-45C2-9D6F-A4C7116DEA4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLBenchmark.Manager", "RLBenchmarks.Manager\RLBenchmark.Manager.csproj", "{423E3889-043E-45C2-9D6F-A4C7116DEA4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RLBenchmark.Data", "RLBenchmark.Data\RLBenchmark.Data.csproj", "{3B9FAA0E-5F21-4226-BC76-6E4A9136117D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RLBenchmark.Data", "RLBenchmark.Data\RLBenchmark.Data.csproj", "{3B9FAA0E-5F21-4226-BC76-6E4A9136117D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{20272814-04AC-43D0-BC41-15D6569D41AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3B9FAA0E-5F21-4226-BC76-6E4A9136117D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B9FAA0E-5F21-4226-BC76-6E4A9136117D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B9FAA0E-5F21-4226-BC76-6E4A9136117D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20272814-04AC-43D0-BC41-15D6569D41AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20272814-04AC-43D0-BC41-15D6569D41AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20272814-04AC-43D0-BC41-15D6569D41AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20272814-04AC-43D0-BC41-15D6569D41AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
